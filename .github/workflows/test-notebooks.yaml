@@ -14,3 +14,4 @@ jobs:
           pip install ipykernel papermill
           python -m ipykernel install --user
           papermill adding-a-dimension-to-a-tensor-in-pytorch.ipynb - > /dev/null
+          papermill torchvision-datasets.ipynb - > /dev/null
