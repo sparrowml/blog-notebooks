@@ -11,7 +11,7 @@ jobs:
           python-version: 3.9
       - name: Test notebooks
         run: |
-          pip install ipykernel papermill
+          pip install jupyter papermill
           python -m ipykernel install --user
           papermill adding-a-dimension-to-a-tensor-in-pytorch.ipynb - > /dev/null
           papermill torchvision-datasets.ipynb - > /dev/null
